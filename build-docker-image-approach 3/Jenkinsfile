@@ -16,7 +16,7 @@ pipeline{
         stage("build image"){
             steps{
                 script {
-                    app = docker.build('sid0701/docker2024')
+                    app = docker.build('sid0701/java-selenium-cucumber-docker-1')
                 }
             }
         }
