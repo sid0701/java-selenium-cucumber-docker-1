@@ -1,0 +1,30 @@
+22:18:14,023  INFO ResourceLoader:16 - reading from : config/default.properties
+22:18:14,023  INFO ResourceLoader:16 - reading from : config/default.properties
+22:18:14,023  INFO ResourceLoader:16 - reading from : config/default.properties
+22:18:14,026  INFO Config:22 - Final value of all the default properties :: 
+22:18:14,026  INFO Config:22 - Final value of all the default properties :: 
+22:18:14,028  INFO Config:24 - implicit.wait.duration = 5
+22:18:14,027  INFO Config:22 - Final value of all the default properties :: 
+22:18:14,029  INFO Config:24 - firefox.browser.version = 0.35.0
+22:18:14,028  INFO Config:24 - implicit.wait.duration = 5
+22:18:14,030  INFO Config:24 - firefox.browser.version = 0.35.0
+22:18:14,030  INFO Config:24 - browser = chrome
+22:18:14,029  INFO Config:24 - implicit.wait.duration = 5
+22:18:14,031  INFO Config:24 - selenium.grid.url.format = http://%s:4444/wd/hub
+22:18:14,031  INFO Config:24 - browser = chrome
+22:18:14,032  INFO Config:24 - selenium.grid.enabled = true
+22:18:14,033  INFO Config:24 - chrome.browser.version = 132.0.6834.110
+22:18:14,034  INFO Config:24 - selenium.grid.hubHost = hub
+22:18:14,032  INFO Config:24 - firefox.browser.version = 0.35.0
+22:18:14,033  INFO Config:24 - selenium.grid.url.format = http://%s:4444/wd/hub
+22:18:14,035  INFO Config:24 - browser = chrome
+22:18:14,036  INFO Config:24 - selenium.grid.url.format = http://%s:4444/wd/hub
+22:18:14,035  INFO Config:24 - selenium.grid.enabled = true
+22:18:14,037  INFO Config:24 - chrome.browser.version = 132.0.6834.110
+22:18:14,037  INFO Config:24 - selenium.grid.hubHost = hub
+22:18:14,036  INFO Config:24 - selenium.grid.enabled = true
+22:18:14,039  INFO Config:24 - chrome.browser.version = 132.0.6834.110
+22:18:14,039  INFO Config:24 - selenium.grid.hubHost = hub
+22:18:14,044  INFO BaseTest:44 - URL : http://hub:4444/wd/hub
+22:18:14,044  INFO BaseTest:44 - URL : http://hub:4444/wd/hub
+22:18:14,044  INFO BaseTest:44 - URL : http://hub:4444/wd/hub

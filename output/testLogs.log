@@ -1,0 +1,22 @@
+20:59:47,010  INFO ResourceLoader:16 - reading from : config/default.properties
+20:59:47,011  INFO Config:22 - Final value of all the default properties :: 
+20:59:47,012  INFO Config:24 - implicit.wait.duration = 5
+20:59:47,012  INFO Config:24 - firefox.browser.version = 0.35.0
+20:59:47,012  INFO Config:24 - browser = chrome
+20:59:47,016  INFO Config:24 - selenium.grid.url.format = https://%s:4444/wd/hub
+20:59:47,018  INFO Config:24 - selenium.grid.enabled = false
+20:59:47,019  INFO Config:24 - chrome.browser.version = 132.0.6834.110
+20:59:47,019  INFO Config:24 - selenium.grid.host = localHost
+20:59:48,398  INFO WebDriverManager:1220 - Using chromedriver 132.0.6834.110 (resolved driver for Chrome 132.0.6834.110)
+20:59:48,490  INFO WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\132.0.6834.110\chromedriver.exe
+20:59:52,314  INFO ResourceLoader:16 - reading from : config/default.properties
+20:59:52,315  INFO Config:22 - Final value of all the default properties :: 
+20:59:52,315  INFO Config:24 - implicit.wait.duration = 5
+20:59:52,315  INFO Config:24 - firefox.browser.version = 0.35.0
+20:59:52,315  INFO Config:24 - browser = chrome
+20:59:52,315  INFO Config:24 - selenium.grid.url.format = https://%s:4444/wd/hub
+20:59:52,315  INFO Config:24 - selenium.grid.enabled = false
+20:59:52,316  INFO Config:24 - chrome.browser.version = 132.0.6834.110
+20:59:52,316  INFO Config:24 - selenium.grid.host = localHost
+20:59:52,324  INFO WebDriverManager:1220 - Using chromedriver 132.0.6834.110 (resolved driver for Chrome 132.0.6834.110)
+20:59:52,336  INFO WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\DELL\.cache\selenium\chromedriver\win64\132.0.6834.110\chromedriver.exe
