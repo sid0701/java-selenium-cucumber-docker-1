@@ -9,7 +9,7 @@ pipeline{
         }
         stage("build image"){
             steps{
-                bat "docker build -t=sid0701/java-selenium-cucumber-docker-1:latest ."
+                bat "docker build -t=sid0701/java-selenium-cucumber-docker-1 ."
             }
         }
         stage("push image"){
@@ -17,10 +17,8 @@ pipeline{
                 DOCKER_HUB = credentials('mydocker-credentials')
             }
             steps{
-                	bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
-                	bat "docker push sid0701/java-selenium-cucumber-docker-1:latest"
-                    bat "docker tag sid0701/java-selenium-cucumber-docker-1:latest sid0701/java-selenium-cucumber-docker-1:${env.BUILD_NUMBER}"
-                    bat "docker push sid0701/java-selenium-cucumber-docker-1:${env.BUILD_NUMBER}"
+                	bat 'echo %DOCKER_HUB_PSW% | docker login -u %DOCKER_HUB_USR% --password-stdin'
+                	bat "docker push sid0701/java-selenium-cucumber-docker-1"
 
             }
         }
